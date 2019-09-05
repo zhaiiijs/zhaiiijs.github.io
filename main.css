@@ -1,0 +1,150 @@
+/* 字体 */
+@font-face
+{
+    font-family: SF-Regular;
+    src: url(Fonts/SF-Pro-Text-Regular.otf);
+}
+
+@font-face
+{
+    font-family: SF-Heavy;
+    src: url(Fonts/SF-Pro-Text-Heavy.otf);
+}
+
+@font-face
+{
+    font-family: SF-Medium;
+    src: url(Fonts/SF-Pro-Text-Medium.otf);
+}
+
+body{
+    background-image: url(images/bg1.svg);
+    background-repeat: no-repeat;
+    background-size:1200px;
+    background-position:top right;
+}
+
+
+
+/* main */
+
+
+.header-container{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    margin-top: 30px; 
+    margin-left: 44px;
+    margin-right: 40px;
+}
+
+.logo{
+    height: 28pt;
+}
+
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 920px;
+    flex-shrink: 1;
+    
+}
+
+.header-menu > li{
+    font-size: 14pt;
+    list-style-type: none;
+    font-family: SF-Regular;
+    width: 120px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.header-menu > li:nth-last-child(2){
+    margin-left: 40px;
+}
+
+.header-menu > li > a:any-link{
+    color: #9fa0a2;
+    text-decoration:none;
+}
+
+.header-menu > li > button{
+    background-color: #2e7de0;
+    font-size: 16pt;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 100px;
+    font-family: SF-Regular;
+    width: 120px;
+}
+/* sectionone */
+
+.container-one{
+    background-image: url(images/bg2.svg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:bottom right;
+}
+
+
+h1, h2, h3, p{
+    color: #373232;
+}
+
+h1{
+    font-family: SF-Heavy;
+    font-size: 70pt;
+    line-height: 0;
+}
+
+
+.section-one > div > p:nth-child(2){
+    margin-left: 16px;
+    font-family: SF-Medium;
+    line-height: 10px;
+}
+
+.descrip{
+    margin-left: 16px;
+    font-family: SF-Regular;
+    color: #c0bfbf;
+    width: 76%;
+    margin-top: 24px;
+}
+
+.section-one{
+    align-items: center;
+    height: 660PX;
+    max-width: 1100px;
+    margin-left: 10px;
+    padding-top: 240px;
+}
+
+.title-one{
+    margin-left: 20%;
+}
+
+.movebody-one{
+    position: absolute;
+    top: 120px;
+    right: 900px;
+    width: 0px;
+    height: 400px;
+    z-index: -1;
+}
+
+#bm {
+    width: 800px;
+}
+
+
+/* container-tow */
+.container-two{
+    background-color: #f9fbfd;
+    height: 660PX;
+}
